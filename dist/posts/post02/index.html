@@ -1,0 +1,21 @@
+<!DOCTYPE html><h1>Ejercicios con Astro</h1> <p>Autor: Ruben</p> <p>Publicado el 2024-09-04</p> <img src="" width="300" alt="logotipo"> <ul> <li><a href="/posts/post01">Mi primera pagina con Astro y StackBlitz</a></li><li><a href="/posts/post02">Ejercicios con Astro</a></li><li><a href="/posts/post03">post03</a></li> </ul> <h2 id="ejercicios">Ejercicios</h2>
+<h3 id="01">01</h3>
+<p>Dado el siguiente codigo:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="sh"><code><span class="line"><span style="color:#B392F0">const</span><span style="color:#9ECBFF"> sistemaOperativo</span><span style="color:#9ECBFF"> =</span><span style="color:#9ECBFF"> 'Linux'</span><span style="color:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#B392F0">const</span><span style="color:#9ECBFF"> cantidad</span><span style="color:#9ECBFF"> =</span><span style="color:#79B8FF"> 4</span><span style="color:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#B392F0">const</span><span style="color:#9ECBFF"> ropa</span><span style="color:#9ECBFF"> =</span><span style="color:#9ECBFF"> 'botas'</span><span style="color:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#B392F0">const</span><span style="color:#9ECBFF"> estudiar</span><span style="color:#9ECBFF"> =</span><span style="color:#79B8FF"> false</span><span style="color:#E1E4E8">;</span></span>
+<span class="line"></span></code></pre>
+<p>Escribe o trata de imitar lo que sacaria el navegador en la web segun las siguientes expresiones:</p>
+<p><strong>1.</strong></p><p>{sistemaOperativo}</p><p></p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>Linux</span></span>
+<span class="line"><span></span></span></code></pre>
+<p><strong>2.</strong>{estudiar &#x26;&#x26; </p><p>Sigo estudiando</p>}<p></p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>""</span></span>
+<span class="line"><span></span></span></code></pre>
+<p><strong>3.</strong></p><p>Tengo {cantidad - 2} pares de {ropa</p>}<p></p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>Tengo 2 pares de botas</span></span>
+<span class="line"><span></span></span></code></pre>
+<p><strong>4.</strong>{sistemaOperativo === “Macos” ? </p><p>Uso el ordenador de la manzanita</p> : <p>No se como manejar mi OS.</p>s }<p></p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>No se como majejar mi OS.    </span></span>
+<span class="line"><span></span></span></code></pre>
